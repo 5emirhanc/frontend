@@ -1,0 +1,11 @@
+.groupfrom{
+    background:transparent !important;
+    color: black !important ;
+    height: 5.4rem;
+    width: 15rem;
+}
+
+.container{
+    flex:1;
+    justify-content: center;
+}

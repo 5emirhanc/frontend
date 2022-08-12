@@ -1,0 +1,26 @@
+.btn1{
+}
+
+.img{
+    margin: 5px;
+    width: 35%;
+    height: 35%;
+    margin-left: 32%;
+}
+
+
+.stage{
+    justify-content: center !important;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

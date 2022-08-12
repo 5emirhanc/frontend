@@ -1,0 +1,15 @@
+.groupfrom{
+    margin: 5px;
+}
+.btn{
+    width: 100%;
+    background-color: green;
+}
+.btn :hover{
+    background-color: green;
+}
+.img{
+    width: 35%;
+    height: 35%;
+    margin-left: 35%;
+}

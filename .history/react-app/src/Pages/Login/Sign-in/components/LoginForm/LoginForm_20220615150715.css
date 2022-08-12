@@ -1,0 +1,16 @@
+.LoginForm{
+background-color: aqua !important;
+}
+.btn{
+    width: 100%;
+    background-color: green;
+}
+.btn :hover{
+    background-color: green;
+}
+.img{
+    margin: 5px;
+    width: 35%;
+    height: 35%;
+    margin-left: 32%;
+}

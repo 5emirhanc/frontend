@@ -1,0 +1,19 @@
+label{
+    color: rgb(0, 0, 0) !important;
+}
+div form{
+    background: rgb(188, 182, 182) !important;
+    width:50%;
+    margin: 5rem;
+    border-radius: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}   
+form button{
+    height: 55px !important;
+    width: 75% !important;
+    
+    color: black !important ;
+    background: forestgreen !important;
+}
+

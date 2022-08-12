@@ -1,0 +1,57 @@
+import Form from "react-bootstrap/Form";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Figure from 'react-bootstrap/Figure'
+import "./Contact.module.css";
+
+function Contacts() {
+  return (
+    <Container className="bg-light">
+      
+      <Form className="bg-white">
+        <Row className="row">
+          <Form.Group as={Col} controlId="formGridEmail">
+            <Form.Label>Email</Form.Label>
+            <Form.Control type="email" placeholder="Enter email" />
+          </Form.Group>
+
+          <Form.Group as={Col} controlId="formGridPassword">
+            <Form.Label>İSIM SOYISIM</Form.Label>
+            <Form.Control type="İSIM SOYISIM" placeholder="İsim Soyisim" />
+          </Form.Group>
+        </Row>
+
+        <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Label>TELEFON</Form.Label>
+          <Form.Control type="tel" placeholder="Telefon " />
+        </Form.Group>
+
+        <Form.Group controlId="formTelepone">
+          <Form.Label>MESAJ</Form.Label>
+          <Form.Control type="textarea" placeholder="Mesaj" />
+        </Form.Group>
+
+        <div className="d-grid gap-2">
+          <Button variant="primary" size="lg">
+            Gönder
+          </Button>
+        </div>
+        <Figure>
+  <Figure
+    width={171}
+    height={180}
+    alt="171x180"
+    src="holder.js/171x180"
+  />
+  <Figure.Caption>
+    Nulla vitae elit libero, a pharetra augue mollis interdum.
+  </Figure.Caption>
+</Figure>
+      </Form>
+     
+    </Container>
+  );
+}
+export default Contacts;

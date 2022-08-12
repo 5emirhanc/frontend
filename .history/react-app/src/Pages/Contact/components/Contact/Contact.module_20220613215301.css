@@ -1,0 +1,28 @@
+label{
+    color: rgb(0, 0, 0) !important;
+}
+div form{
+    background: rgb(188, 182, 182) !important;
+    width:50%;
+    margin: 5rem;
+}
+
+.btn btn-primary{
+    
+    background: #1ba12d !important;
+    border: 1px solid #1ba12d !important;
+    color: #fff !important;
+
+}
+.btn{.btn {
+    padding: 12px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}}
+
